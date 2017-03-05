@@ -2,7 +2,7 @@
 
 We can treat it like a giant packet with no limits, except real world performance. It doesn't need to be tight - we don't expect unbearably slow networks, and if it's slow enough to impact a <1k frame/packet, then it's probably too slow to be of any use.
 
-That said, the server should be tracking the clients individually; that is, each client should have it's own socket (or, in the MQTT/AMQT case, a 'topic'). The server should establish the identity and capabilities of the client - that is, who or what is this, and what resources are you offering. Further, the client should inform the server, as part of it's capabilities, how those capabilities should be accessed. It may be valuable to include an eventing section, defining events, or possible events, etc.
+That said, the server should be tracking the clients individually; that is, each client should have it's own identifying connection (or, in the MQTT/AMQT case, a 'topic'). The server should establish the identity and capabilities of the client - that is, who or what is this, and what resources are you offering. Further, the client should inform the server, as part of it's capabilities, how those capabilities should be accessed. It may be valuable to include an eventing section, defining events, or possible events, etc.
 
 ## Frames
 
