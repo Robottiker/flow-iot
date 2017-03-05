@@ -7,6 +7,7 @@ That said, the server should be tracking the clients individually; that is, each
 ## Frames
 
 The following is an example "frame", or "packet" from the client to the server. It includes a "registration" message and "capabilitiesList" message Spaceman Spiff's Spiffy Spaceship [credit: Calvin & Hobbes]:
+
 ```json
 [
     [
